@@ -6,7 +6,7 @@ const WhatsappLive = () => {
   const message = encodeURIComponent(
     "Hola AliStudio, me gustaría saber más sobre su agencia digital y los servicios que ofrecen."
   );
-  const whatsappURL = `https://api.whatsapp.com/send?phone=18094885950&text=${message}`;
+  const whatsappURL = `https://api.whatsapp.com/send?phone=18099586249&text=${message}`;
 
   return (
     <Link href={whatsappURL} isExternal _hover={{ textDecoration: 'none' }}>
